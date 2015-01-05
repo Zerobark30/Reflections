@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It isolated only the parts of the text that were changed and once I figured
+	out the syntax, it was easy to see what I was really looking at.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    That question seems to be coming from two different stand points, i.e the
+	thing that is making you a better programmer in general vs. the thing that
+	is making you a better programmer on a given task. Maybe that's the point 
+	though. Like they're one in the same in this case. You become a better 
+	programmer because it allows you to be free from worry about radically 
+	changing stuff.
+	
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of having a manual commit process are that if you are just fooling
+	around with something and you're fairly certain you don't want to commit,
+	you don't have to. Also, It allows you to definitively flag break points.
+	The big con is that if your shit freezes up, you have to go back to your
+	previous save point rather than what you'd been doing up to that point.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I guess you'd want to be able to save multiple files in one commit if you
+	are doing something that involves multiple file types interacting together.
+	When you're handling different documents that don't necessarily have to 
+	interact with eachother, it's not as important to have them all committed
+	together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I don't know what those commands do yet, but I'm supposing that they allow
+	you to look at all the forked repositories that are being used and how
+	they have changed from the original version
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you can always go back to a version that you know works or at least
+	you know what you're dealing with, rather than something you've tried to
+	fiddle with a bunch and potentially created compounding problems with
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Keeping my SQL code and VBA code in order
