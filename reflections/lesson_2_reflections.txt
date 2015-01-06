@@ -14,3 +14,41 @@ area to put only the pieces of the working directory that you'd like to
 commit, rather than making you commit everything from the working directory.
 It's sort of just a logical separator in my mind.
 
+How can you use the staging area to make sure that you have one commit
+per logical change?
+
+You can run git diff --staged before you commit to see the changes in the 
+version in the staging area relative to the most recent commit
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+For the code I keep now, branches would be helpful for me because I create a 
+lot of SQL queries that are very similar. I usually start by creating a "base"
+query that pulls out some data into a csv file. Then a few weeks or months 
+later, someone will ask for another piece of information that's somehow related
+and I'll have to customize the query. It'd be really nice to know how all of
+those pieces fit together.
+
+How do the diagrams help you visualize the branch structure?
+
+Like any good diagrams, these diagrams elucidate the fundamental purpose of
+branching as it relates to git, which is to allow for different version of the
+same project to exist simultaneously and show how these parts are related
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+Merging two branches together creates a single repository where there used to
+be two. Based on the latest common commit and the differences in the two files
+it creates a single unified repository that incorporates all of the updates
+that have been made to the repository in both branches
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+The pros of Git's automatic merging is that it reduces the amount of time you'd
+have to spend pulling two different commits together and simplifies the whole
+process. The cons are that you might end up including code that you might not
+want in there and that you still have to resolve conflicts between parts of
+code that might have been changed in both commits
