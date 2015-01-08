@@ -1,0 +1,1 @@
+As you move into the hidden room, the smell only intensifies
